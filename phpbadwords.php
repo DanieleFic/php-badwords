@@ -10,7 +10,7 @@ $paroladacensurare = $_GET['dolor']; */
 /* str_replace('dolor', '***', $stringa); */
 /* $strigacensurata = str_replace($stringaleng, $censura, $paroladacensurare); */
 
-    $frase = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor adipisci, quas quia optio earum neque eveniet a modi corrupti eligendi dolorem dicta est iure molestias dolor voluptatibus illo cum quod nihil. Quas quasi, dolor ducimus quo vel ratione repudiandae neque voluptatem delectus. Blanditiis dolor itaque laborum nostrum dolor impedit a dignissimos, ad rem fuga?";
+    $frase = "Cosa ottieni se metti insieme un malato di mente solitario con una società che lo abbandona e poi lo tratta come immondizia? Te lo dico io che cosa ottieni: ottieni quel cazzo che ti meriti.";
     $paroladacensurare = $_GET["censura"];
     $censura = "*******";
 // Using str_replace() function
