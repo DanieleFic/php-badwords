@@ -10,7 +10,7 @@ $paroladacensurare = $_GET['dolor']; */
 /* str_replace('dolor', '***', $stringa); */
 /* $strigacensurata = str_replace($stringaleng, $censura, $paroladacensurare); */
 
-    $frase = "Cosa ottieni se metti insieme un malato di mente solitario con una società che lo abbandona e poi lo tratta come immondizia? Te lo dico io che cosa ottieni: ottieni quel cazzo che ti meriti.";
+    $frase = "Cosa ottieni se metti insieme un malato di mente solitario con una società che lo abbandona e poi lo tratta come immondizia? Te lo dico io che cosa ottieni: ottieni quel  che ti meriti.";
     $paroladacensurare = $_GET["censura"];
     $censura = "*******";
 // Using str_replace() function
