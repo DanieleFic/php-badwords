@@ -12,9 +12,9 @@ $paroladacensurare = $_GET['dolor']; */
 
     $frase = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor adipisci, quas quia optio earum neque eveniet a modi corrupti eligendi dolorem dicta est iure molestias dolor voluptatibus illo cum quod nihil. Quas quasi, dolor ducimus quo vel ratione repudiandae neque voluptatem delectus. Blanditiis dolor itaque laborum nostrum dolor impedit a dignissimos, ad rem fuga?";
     $paroladacensurare = $_GET["censura"];
-    $censura = "***";
+    $censura = "*******";
 // Using str_replace() function
-    $frase = str_replace($paroladacensurare, $censura, $frase); 
+    $frase2 = str_replace($paroladacensurare, $censura, $frase); 
     
 
 ?> -->
@@ -30,7 +30,10 @@ $paroladacensurare = $_GET['dolor']; */
 </head>
 <body>
         <h1>
-            <?php echo ($frase) ?>
+            <?php echo ($frase2);  ?>
+        </h1>
+        <h1>
+            <?php  echo strlen($frase2) ?>
         </h1>
 
 </body>
