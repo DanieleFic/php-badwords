@@ -14,7 +14,7 @@ $paroladacensurare = $_GET['dolor']; */
     $paroladacensurare = $_GET["censura"];
     $censura = "*******";
 // Using str_replace() function
-    $frase2 = str_replace($paroladacensurare, $censura, $frase); 
+    $frase2 = str_ireplace($paroladacensurare, $censura, $frase); 
     
 
 ?> -->
